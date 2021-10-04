@@ -102,6 +102,7 @@ if (mysql_real_connect(con, "localhost", "webuser", "secretpassword",
     buffer22 = (int)(GPIO_READ(22))>>22;
 
     sleep(1);
+    
     }
 
   mysql_close(con);
