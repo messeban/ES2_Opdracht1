@@ -1,0 +1,3 @@
+/home/pi/Documents/PJ_RPI/opdracht1/build/CMakeFiles/rebuild_cache.dir
+/home/pi/Documents/PJ_RPI/opdracht1/build/CMakeFiles/Opdracht_1.dir
+/home/pi/Documents/PJ_RPI/opdracht1/build/CMakeFiles/edit_cache.dir

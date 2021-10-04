@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/Opdracht_1.dir/opdracht1.c.o  -o Opdracht_1  -lPJ_RPI -lmariadb 
