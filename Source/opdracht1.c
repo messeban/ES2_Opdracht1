@@ -41,6 +41,8 @@ if (mysql_real_connect(con, "localhost", "webuser", "secretpassword",
         	return -1;
     	}
 	INP_GPIO(17);
+	INP_GPIO(18);
+	INP_GPIO(22);
 
     int buffer17 = (int)(GPIO_READ(17))>>17;
     int buffer18 = (int)(GPIO_READ(18))>>18;
@@ -102,7 +104,7 @@ if (mysql_real_connect(con, "localhost", "webuser", "secretpassword",
     buffer22 = (int)(GPIO_READ(22))>>22;
 
     sleep(1);
-    
+
     }
 
   mysql_close(con);
